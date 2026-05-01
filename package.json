@@ -1,9 +1,17 @@
 {
   "name": "biome-bunx-formatter",
   "displayName": "Biome (bunx) Formatter",
-  "description": "Format files using bunx @biomejs/biome",
+  "description": "Format files with Biome via bunx — no local install required.",
   "version": "0.0.1",
   "publisher": "vladstudio",
+  "license": "MIT",
+  "icon": "icon.png",
+  "categories": ["Formatters"],
+  "keywords": ["biome", "formatter", "bun", "bunx", "biomejs"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladstudio/biome.git"
+  },
   "engines": { "vscode": "^1.75.0" },
   "main": "./out/extension.js",
   "activationEvents": [
